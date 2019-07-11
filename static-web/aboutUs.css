@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.shell{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+#titName{
+    color: #000;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#titBrief{
+    font-size: 14px;
+    text-indent:2em;
+}
+#titBody{
+    color: #4a4a4a;
+}
+#titBody>dt{
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: red;
+}
+#titBody>dd{
+    text-indent:2em;
+    font-size: 13px;
+}
+
