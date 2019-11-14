@@ -8,28 +8,37 @@
     box-sizing: border-box;
     margin-bottom: 50px;
 }
-#titName{
-    color: rgb(212, 23, 23)45, 45, 45);
+.fromdiv {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.titName{
+    color: rgb(212, 23, 23);
     font-size: 26px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
 }
-#titBrief{
-    font-size: 14px;
-    text-indent:2em;
+.input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .subBtn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.hide{
+    display:none;/* 不占据空间，无法点击 */
 }
-#titBody{
-    color: #4a4a4a;
-}
-#titBody>dt{
-    font-size: 16px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    color: red;
-}
-#titBody>dd{
-    text-indent:2em;
-    font-size: 13px;
-}
-

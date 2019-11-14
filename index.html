@@ -14,20 +14,24 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-  <title>聊天</title>
+  <title>Hellod Word!</title>
+
   <link rel="stylesheet" type="text/css" href="./index.css" charset="utf-8" />
 
 </head>
 
 <body>
-  <div class="shell">
-
-    <h3 class="titName hide"></h3>
-
-    <input type="text" oninput="input">
+  <div class="fromdiv">
     
+    <form action="/action_page.php">
+      <label for="fname" id="firstLb">密码</label>
+      <input class="input" type="text" id="firstname" name="firstname" placeholder="请输入密码.......">
+      <button class="subBtn" type="button" onclick="input()" id="firstBtn">确定</button>
+    </form>
+
     <div id="box" class="shell hide">
       
+      <h3 class="titName">Hellod Word!</h3>
 
     </div>
 
